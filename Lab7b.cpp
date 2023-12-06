@@ -13,44 +13,44 @@ int calculateValue(const string& word)
 		char letter = i;
 		switch (letter) {
 		case 'A':
-		case 'E';
-		case 'I';
-		case 'L';
-		case 'N';
-		case 'O';
-		case 'R';
-		case 'S';
-		case 'T';
-		case 'U';
+		case 'E':
+		case 'I':
+		case 'L':
+		case 'N':
+		case 'O':
+		case 'R':
+		case 'S':
+		case 'T':
+		case 'U':
 			pointValue += 1;
 			break;
 
-		case 'D';
-		case 'G';
+		case 'D':
+		case 'G':
 			pointValue += 2;
 			break;
 
-		case 'B';
-		case 'C';
-		case 'M';
-		case 'P';
+		case 'B':
+		case 'C':
+		case 'M':
+		case 'P':
 			pointValue += 3;
 			break;
 
-		case 'F';
-		case 'H';
-		case 'V';
-		case 'W';
-		case 'Y';
+		case 'F':
+		case 'H':
+		case 'V':
+		case 'W':
+		case 'Y':
 			pointValue += 4;
 			break;
 
-		case 'K';
+		case 'K':
 			pointValue += 5;
 			break;
 
-		case 'J';
-		case 'X';
+		case 'J':
+		case 'X':
 			pointValue += 8;
 			break;
 
@@ -59,7 +59,7 @@ int calculateValue(const string& word)
 			pointValue += 10;
 			break;
 
-			default:
+			default;
 		}
 
 
