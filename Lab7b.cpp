@@ -11,6 +11,9 @@ int calculateValue(const string& word)
 	{
 
 		char letter = word[i];
+
+		
+
 		switch (letter) {
 		case 'A':
 		case 'E':
@@ -59,8 +62,10 @@ int calculateValue(const string& word)
 			pointValue += 10;
 			break;
 
+
 			default:
-			returm 0; /// for any unknown characters entered by the user 
+			return 0; /// for any unknown characters entered by the user 
+
 		}
 
 
